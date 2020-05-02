@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-family: "metropolis-semibold", sans-serif;
+    font-size: 18px;
+    line-height: 1.363;
+    letter-spacing: 0.25rem;
+    margin-bottom: 4.8rem;
+    margin-top: 0.9rem;
+    
+}
+h3 a{
+    color: #cc147f;
+    text-decoration: none;
+    padding: 15px 15px 15px 25px;
+}
+h3 a:hover{
+    color: #f58ac8;
+}
+.sideNav{
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.nav-list a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.nav-social{
+    list-style-type: none;
+    margin-top: 100px;
+    align-items: center;
+}
+.nav-social li{
+    float: left;
+}
+.nav-social a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.nav-social a:hover, .nav-list a:hover{
+    color: white;
+}
+.social-container{
+    text-align: center;
+    width: 250px;
+}
+/*position and style the close btn*/
+.sideNav .closebtn{ 
+    position: absolute;
+    top: 0;
+    color: white;
+    right: 25px;
+    text-decoration: none;
+    font-size: 45px;
+    margin-left: 50px;
+}
+.closebtn:hover{
+    color: grey;
+}
+.menuBtn{ 
+    position: fixed;
+    top: 5%;
+    left: 3%;
+}
+.fa-bars{
+    color: white;
+}
+.coverImg{
+    height: 50%;
+}
+#main{
+    height: 2000px;
+    max-width: 700px;
+    margin: auto;
+
+}
+.all-heads{
+    text-align: center;
+    padding: 25px 0px;
+}
+p{
+    padding: 20px 10px;
+    font-size: 20px;
+}
